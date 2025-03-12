@@ -148,8 +148,8 @@
 .carousel-indicators {
   position: absolute;
   right: 0;
-  bottom: 0;
-  left: 0;
+    bottom: 31px;
+    left: 83px;;
   z-index: 2;
   display: flex;
   justify-content: center;
@@ -157,7 +157,7 @@
   // Use the .carousel-control's width as margin so we don't overlay those
   margin-right: $carousel-control-width;
   margin-bottom: 1rem;
-  margin-left: $carousel-control-width;
+
 
   [data-bs-target] {
     box-sizing: content-box;
